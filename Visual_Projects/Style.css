@@ -1,0 +1,14 @@
+
+
+    .banner {
+  display: flex; /* utiliza el modelo de caja flexible para acomodar las imágenes */
+  justify-content: center; /* centra las imágenes horizontalmente */
+  align-items: center; /* centra las imágenes verticalmente */
+  height: 300px; /* ajusta la altura del banner según tus necesidades */
+  /* background: 12px;*/
+}
+.banner img {
+  width: 100%; /* ajusta el ancho de las imágenes para que se ajusten al ancho del banner */
+  height: 100%; /* ajusta la altura de las imágenes para que se ajusten a la altura del banner */
+  object-fit: cover; /* escala las imágenes para que llenen completamente el área de la imagen sin distorsión */
+}
